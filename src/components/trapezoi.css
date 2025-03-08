@@ -1,0 +1,29 @@
+.button-trapezoid {
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--text-white-200);
+    background: transparent;
+    border: none;
+    transform: skewX(-25deg);
+    overflow: hidden;
+  }
+  
+  .inner-content {
+    width: 100%;
+    transform: skewX(25deg);
+    display: flex;
+    align-items: center;
+  }
+  
+  .button-trapezoid::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 2;
+  }
