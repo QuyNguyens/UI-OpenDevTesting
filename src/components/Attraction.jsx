@@ -1,7 +1,7 @@
 import { useState } from "react";
 import polygonBlue from "../assets/polygon-blue.svg";
 import polygonRed from "../assets/polygon-red.svg";
-import { attractionData } from "../static/data/acctraction";
+import { attractionData } from "../static/data/attraction";
 import blackBlur from "../assets/black-blur.png";
 import "./attraction.css";
 

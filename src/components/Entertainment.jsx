@@ -13,7 +13,7 @@ const Entertainment = () => {
                   <h1 className="w-full text-4xl font-bold uppercase font-big-shoulders-text lg:text-7xl text-white-200">
                     New entertainment centre near Cheb
                   </h1>
-                  <p className="w-full lg:w-[66.74%] font-space-grotesk font-normal text-base-16 text-white-200">
+                  <p className="w-full lg:w-[64.5%] font-space-grotesk font-normal text-base-16 text-white-200">
                     We have been entertaining children and adults in western Bohemia for more than 10 years!
                   </p>
                 </div>
@@ -33,7 +33,7 @@ const Entertainment = () => {
                     style={{ backgroundImage: `url(${entertainment})` }}
                 />
                 <div
-                    className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-20 z-1"
+                    className="absolute inset-0 bg-center bg-no-repeat bg-cover opacity-50 z-1"
                     style={{ backgroundImage: `url(${blackBlur})` }}
                 />
                 <img

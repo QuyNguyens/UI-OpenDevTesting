@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { bannerData } from "../static/data/banner";
-import plag from "../assets/plag.svg";
+import flag from "../assets/flag.svg";
 import phone from "../assets/phone.svg";
 import reserveBtn from "../assets/reserve_btn.svg";
 import TrapezoidButton from "./TrapezoidButton";
@@ -59,7 +59,7 @@ const Banner = () => {
                             <div className="flex justify-end relative w-full lg:w-[573px] h-auto">
                                 <div className="relative w-full md:w-[382px] h-full p-4 bg-black-200 rounded-4xl">
                                     <div className="absolute left-[-10px] top-[-18px] w-[87px] h-[87px]">
-                                        <img src={plag} alt="" />
+                                        <img src={flag} alt="" />
                                     </div>
                                     <h3 className="text-white-200 text-center md:text-end w-full md:w-[352px] h-[38px] font-big-shoulders-text font-[400] text-2xl md:text-[32px]">EVERYDAY FUN FOR EVERYONE</h3>
                                     <p className="text-white-200 mt-3 font-space-grotesk font-normal text-sm text-center md:text-left w-full md:w-[352px] h-auto">

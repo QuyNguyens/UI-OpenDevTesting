@@ -1,4 +1,4 @@
-import { registrationData } from "../static/data/registrantion";
+import { registrationData } from "../static/data/registration";
 import qr from "../assets/qr.svg";
 import TrapezoidButton from "./TrapezoidButton";
 import logo from "../assets/Floating Logo.svg";
@@ -36,7 +36,7 @@ const Registration = () => {
                     {
                       step.title=="Register" && <div className="absolute flex gap-3 right-4 top-1/5">
                           <div className="mt-2">
-                            <a href="https://web.racefacer.com/kiosk/kartarenacheb" className="font-space-grotesk font-bold text-sm text-white rounded-[8px] bg-red-500 hover:bg-red-400 pt-1 pb-1 pl-2 pr-2">Click here</a>
+                            <a href="https://web.racefacer.com/kiosk/kartarenacheb" target="_blank" rel="noopener noreferrer" className="font-space-grotesk font-bold text-sm text-white rounded-[8px] bg-red-500 hover:bg-red-400 pt-1 pb-1 pl-2 pr-2">Click here</a>
                           </div>
                           <div className="hidden w-32 h-32 rounded-xl lg:block">
                             <img src={qr} alt="" />
@@ -47,7 +47,7 @@ const Registration = () => {
                 </div>
                 <div className="flex gap-2">
                   <div className="w-[66px]"></div>
-                  <div className={`ml-5 ${step.title=="Register" ? "lg:w-[59%] md:w-[70%]" : "w-[70%]"}`}>
+                  <div className={`ml-5 ${step.title=="Register" ? "lg:w-[56%] md:w-[70%]" : "w-[70%]"}`}>
                     <span className="text-sm font-normal font-space-grotesk text-white-200 md:text-base-16">
                       {step.desc}
                     </span>

@@ -7,7 +7,7 @@ import arrowUp from "../assets/arrow-up.svg";
 
 const Footer = () => {
   return (
-    <div className='flex w-full flex-col gap-6 rounded-[1px] h-[319px] pt-20 pb-20 pl-6 pr-6 border border-top border-black-500'>
+    <div className='flex w-full flex-col gap-6 rounded-[1px] h-full lg:h-[319px] pt-20 pb-20 pl-6 pr-6 border border-top border-black-500'>
         <div className='flex flex-col items-center justify-between mx-auto w-84_66 lg:flex-row'>
             <img className="w-50 h-[95px]" src={logoFooter} alt="logo footer" />
             <p className="w-full text-center lg:text-start lg:w-[23.43%] font-normal text-sm font-space-grotesk leading-tight-150 text-white">New entertainment centre FUN arena Cheb. You will find entertainment and sports activities for children and adults here.</p>

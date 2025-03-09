@@ -1,4 +1,4 @@
-import "./trapezoi.css"
+import "./trapezoid.css"
 
 const TrapezoidButton = ({
   children,
@@ -7,7 +7,7 @@ const TrapezoidButton = ({
   height = "49px",
   skewX = "-23deg",
   border = "1px solid #D9D9D9",
-  borderRadius = "7px",
+  borderRadius = "8px",
   justifyContent = "center",
   isFind = false,
 }) => {
