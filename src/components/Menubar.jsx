@@ -1,4 +1,4 @@
-import logo from "../assets/logo.svg";
+import logo from "../assets/Logo.svg";
 import earth from "../assets/earth.svg";
 import menu from "../assets/menu.svg";
 
